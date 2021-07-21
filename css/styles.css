@@ -29,6 +29,11 @@ hr {
   margin-bottom: 15px;
 }
 
+.ashley {
+  width: 400px;
+  height: 400px;
+}
+
 hr.light {
   border-color: #fff;
 }
