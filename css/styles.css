@@ -73,6 +73,7 @@ p {
 .icon-lg {
   font-size: 50px;
   line-height: 18px;
+  color:#b02782;
 }
 
 .bg-primary {
@@ -432,9 +433,9 @@ textarea {
 }
 
 .btn-default {
-  border-color: rgb(15, 15, 15);
-  color: #222;
-  background-color: rgb(2, 2, 2);
+  border-color:#b02782;
+  color: #b02782;
+  background-color: rgb(248, 239, 239);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
