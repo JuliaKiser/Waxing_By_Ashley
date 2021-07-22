@@ -437,6 +437,19 @@ textarea {
   padding-left: 0;
 }
 
+.CLT {
+  color:aquamarine
+}
+#cpolicy {
+color:white;
+}
+#contactme {
+  border:white 1px solid;
+  padding: 10px;
+  color:white;
+  border-radius: 5rem;
+  background-color:#b02782;
+}
 .btn-default {
   border-color: #b02782;
   color: #b02782;
