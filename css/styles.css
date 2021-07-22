@@ -390,8 +390,9 @@ textarea {
   display: block;
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 450px;
   overflow: hidden;
+  max-height: 550px;
 }
 
 .gallery-box .gallery-box-caption {
@@ -411,7 +412,7 @@ textarea {
 
 .gallery-box .gallery-box-caption .gallery-box-content {
   position: absolute;
-  top: 50%;
+  top: 70%;
   width: 100%;
   text-align: center;
   transform: translateY(-50%);
