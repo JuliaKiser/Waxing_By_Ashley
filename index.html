@@ -486,18 +486,18 @@
             </p>
           </div>
           <div class="col-lg-10 col-lg-offset-1 text-center">
-            <form action="http://formspree.io/beautybyashley0831@yahoo.com" class="contact-form row">
+            <form action="https://formspree.io/f/mpzkyayj" class="contact-form row">
               <div class="col-md-4">
                 <label></label>
-                <input type="text" class="form-control" placeholder="Name" />
+                <input type="text" id="formname" class="form-control" placeholder="Name" />
               </div>
               <div class="col-md-4">
                 <label></label>
-                <input type="text" class="form-control" placeholder="Email" />
+                <input type="text" id="formemail" class="form-control" placeholder="Email" />
               </div>
               <div class="col-md-4">
                 <label></label>
-                <input type="text" class="form-control" placeholder="Phone" />
+                <input type="text" id="formphone" class="form-control" placeholder="Phone" />
               </div>
               <div class="col-md-12">
                 <label></label>
@@ -505,6 +505,7 @@
                   class="form-control"
                   rows="9"
                   placeholder="Your message here.."
+                  id="formbody"
                 ></textarea>
               </div>
               <div class="col-md-4 col-md-offset-4">
@@ -514,6 +515,7 @@
                   data-toggle="modal"
                   data-target="#alertModal"
                   class="btn btn-primary btn-block btn-lg"
+                  onClick="clearform()"
                 >
                   Send <i class="ion-android-arrow-forward"></i>
                 </button>
