@@ -486,21 +486,24 @@
             </p>
           </div>
           <div class="col-lg-10 col-lg-offset-1 text-center">
-            <form action="https://formspree.io/f/mpzkyayj"  method="POST" class="contact-form row">
+            <form action="https://formspree.io/f/mpzkyayj" method="POST" class="contact-form row">
               <div class="col-md-4">
-                <label></label>
+                <label>
                 <input type="text" id="formname" class="form-control" placeholder="Name" />
+              </label>
               </div>
               <div class="col-md-4">
-                <label></label>
-                <input type="text" id="formemail" class="form-control" placeholder="Email" />
+                <label>
+                <input type="text" id="formemail" class="form-control" placeholder="Email" name="email"/>
+              </label>
               </div>
               <div class="col-md-4">
-                <label></label>
-                <input type="text" id="formphone" class="form-control" placeholder="Phone" />
+                <label>
+                <input type="text" id="formphone" class="form-control" placeholder="Phone" name="phone" />
+              </label>
               </div>
               <div class="col-md-12">
-                <label></label>
+                <label>
                 <textarea
                   class="form-control"
                   rows="9"
@@ -508,6 +511,7 @@
                   id="formbody"
                   name="message"
                 ></textarea>
+              </label>
               </div>
               <div class="col-md-4 col-md-offset-4">
                 <label></label>
@@ -520,6 +524,7 @@
                 >
                   Send <i class="ion-android-arrow-forward"></i>
                 </button>
+              </label>
               </div>
             </form>
           </div>
