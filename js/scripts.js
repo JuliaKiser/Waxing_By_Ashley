@@ -39,7 +39,7 @@
 })(jQuery);
 
 function clearform() {
-  document.getElementById("formname").value = "";
+  document.getElementById("formstuff").value = "";
   document.getElementById("formemail").value = "";
   document.getElementById("formphone").value = "";
   document.getElementById("formbody").value = "";
