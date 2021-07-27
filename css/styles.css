@@ -20,8 +20,13 @@ body {
   color: #d3d3d3;
 }
 
+.service-list {
+  display:inline
+}
+
 li {
   list-style-type: none;
+  flex-direction: column;
   margin: 0;
   padding: 7px;
 }
